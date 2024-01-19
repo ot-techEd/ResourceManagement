@@ -80,6 +80,7 @@ public abstract class Unit : MonoBehaviour,
     /// </summary>
     protected abstract void BuildingInRange();
 
+
     //Implementing the IUIInfoContent interface so the UI know it should display the UI when this is clicked on.
     //Implementation of all the functions are empty as default, but they are set as virtual so subclass units can
     //override them to offer their own data to it.
